@@ -4,4 +4,6 @@ The goal of which being to improve the accessibility of search engines to recomm
 
 Screenshot: ![Site Screenshot](/Develop/Screenshots/Site-Screenshot.png)
 
-Open main code file: [Horiseon](/Develop/index.html)
+Open main code file: [Horiseon](./index.html)
+
+Live site: https://jgriffith97.github.io/Module-1-Challenge/
