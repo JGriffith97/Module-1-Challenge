@@ -1,13 +1,16 @@
+/* Styles the box elements throughout the entire page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Styles visible background elements */
 body {
     background-color: #d9dcd6;
 }
 
+/* Styles the header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Styles the h1 'Horiseon' text */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Styles the 'seo' in Hori-seo-n */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Orients the navigation elements of the header */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* Tells the list which markers to use (none) */
 .header div ul {
     list-style-type: none;
 }
 
+/* Orients and assigns spacing to the Headers list elements */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Styles the anchor elements */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sizes the font for all paragraphs */
 p {
     font-size: 16px;
 }
 
+/* Styles the background of the page */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,25 +70,30 @@ p {
     background-position: center;
 }
 
+/* Orients the elements tagged with class 'float-left' */ 
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Orients the elements tagged with class 'float-right' */ 
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Affects the syles for the 'content' class via parent division */ 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Affects the styles and orientation of the 'benefits' section on the right side of the page */
 .benefits {
     margin-right: 20px;
     padding: 20px;
+    padding-bottom: 80px;
     clear: both;
     float: right;
     width: 20%;
@@ -86,40 +102,47 @@ p {
     background-color: #2589bd;
 }
 
+/* Orients the styles of the 'benefit-lead' class */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Orients the styles of the 'benefit-brand' class */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Orients the styles of the 'benefit-cost' class */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Styles the 'Lead Generation' header */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Styles the 'Brand Awareness' header */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Styles the 'Cost Management' header */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Orients the image under the associated header */
 .benefit-lead img {
     display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    margin: 10px auto; /* margin: {top} {right} {bottom} {left} */
+    max-width: 150px; /* Adjusts the width of the image */
 }
 
 .benefit-brand img {
@@ -134,13 +157,14 @@ p {
     max-width: 150px;
 }
 
+/* Styles the elements of the id 'search-engine-optimization' */
 #search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    margin-bottom: 20px; /* Changes the margin around the box */
+    padding: 50px; /* Changes the passing of the box */
+    height: 300px; /* Changes the height of the box */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Changes the font */
+    background-color: #0072bb; /* Changes the color of the box */
+    color: #ffffff; /* Changes the color of the text */
 }
 
 .online-reputation-management {
@@ -153,7 +177,7 @@ p {
 }
 
 .social-media-marketing {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -161,8 +185,9 @@ p {
     color: #ffffff;
 }
 
+/* Changes the properties of the associated image */
 #search-engine-optimization img {
-    max-height: 200px;
+    max-height: 200px; /* Adjusts image height, maintains aspect ratio to width */
 }
 
 .online-reputation-management img {
@@ -173,9 +198,10 @@ p {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+/* Styles the text of the 'Search Engine Optimization' header */
+#search-engine-optimization h2 {
+    margin-bottom: 20px; /* Adjusts the margin beneath the header */
+    font-size: 36px; /* Changes the header font size */
 }
 
 .online-reputation-management h2 {
@@ -188,13 +214,15 @@ p {
     font-size: 36px;
 }
 
+/* Styles the footer */
 .footer {
-    padding: 30px;
-    clear: both;
+    padding: 40px; /* Adjusts the padding around the footer */
+    clear: both; /* Controls flow next to 'float' elements (allow footer text to stay center) */ 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
+/* Styles the h2 text of the footer */
 .footer h2 {
     font-size: 20px;
 }
